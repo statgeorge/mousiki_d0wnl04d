@@ -20,7 +20,8 @@ try:
     with yt_dlp.YoutubeDL(options) as ydl:
         ydl.download([url])
 
-    print("✅ To MP3 katevike epitixos!")
+    print("To MP3 katevike epitixos!")
 
 except Exception as e:
-    print("❌ Sfalmα:", e)
+    print("Sfalmα:", e)
+
